@@ -1,0 +1,15 @@
+:root {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  --accent-color: #06F3F9;
+  --font-color:#000000;
+  font-size: 16px;
+}
+
+body{
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
