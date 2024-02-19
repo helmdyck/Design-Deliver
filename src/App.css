@@ -12,6 +12,7 @@
   border-radius: 30px;
   display: flex;
   align-items: center;
+  box-shadow: 0 0 15px #000000ae;
 }
 
 .navbar-body button {
@@ -26,11 +27,11 @@
   cursor: pointer;
 }
 
-.navbar-body button:hover{
+.navbar-body button:hover {
   background-color: white;
   border-radius: 25px;
   color: var(--font-color);
-} 
+}
 
 .navbar-body i {
   font-size: 1.7rem;
@@ -41,7 +42,7 @@
 
 /*Logo*/
 
-.logo-nav{
+.logo-nav {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -52,3 +53,66 @@
   width: 120px;
 }
 
+/*Hero*/
+.hero-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 200px;
+  position: relative;
+}
+
+.hero-body {
+  max-width: 1240px;
+  /* display: block; */
+  text-align: center;
+}
+
+.hero-body h1 {
+  font-size: 80px;
+  margin: 0;
+}
+
+.hero-body p {
+  font-size: 24px;
+  /* margin: 0; */
+}
+
+.hero-body button {
+  border: none;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  margin-top: 20px;
+  padding: 24px 60px;
+  font-size: 1rem;
+  border-radius: 12px;
+  
+  transition: 0.3s ease-in-out;
+}
+
+.hero-body button:hover {
+  transform: translateY(-5px);
+  box-shadow: 7px 5px 0px #06F3F9;
+}
+
+.brand-elements {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+}
+
+.brand-elements .d-img {
+  width: 300px;
+  height: 300px;
+  transform: translateX(-50px);
+}
+
+.brand-elements .plus-img {
+  width: 300px;
+  height: 300px;
+  transform: translateX(50px);
+}
