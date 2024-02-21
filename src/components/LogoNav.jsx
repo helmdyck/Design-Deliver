@@ -1,10 +1,10 @@
 import React from 'react'
-import DDlogo from "../assets/DDlogo.png"
+import logocolor from "../assets/logocolor.png"
 
 function LogoNav() {
   return (
     <div className="logo-nav">
-        <img src={DDlogo} alt="" />
+        <img src={logocolor} alt="" />
     </div>
   )
 }

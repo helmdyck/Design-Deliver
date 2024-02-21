@@ -1,3 +1,5 @@
+/*Navbar*/
+
 .nav-container {
   width: 100%;
   display: flex;
@@ -7,7 +9,7 @@
 }
 
 .navbar-body {
-  background-color: black;
+  background-color: rgb(255, 255, 255);
   padding: 5px;
   border-radius: 30px;
   display: flex;
@@ -20,7 +22,7 @@
   font-size: 1rem;
   font-weight: 600;
   background: none;
-  color: white;
+  color: rgb(0, 0, 0);
   padding: 15px;
   border-radius: 25px;
   transition: 0.3s ease-in-out;
@@ -28,14 +30,14 @@
 }
 
 .navbar-body button:hover {
-  background-color: white;
+  background-color: rgb(0, 0, 0);
   border-radius: 25px;
-  color: var(--font-color);
+  color: white;
 }
 
 .navbar-body i {
   font-size: 1.7rem;
-  color: white;
+  color: rgb(0, 0, 0);
   padding: 10px;
   cursor: pointer;
 }
@@ -50,12 +52,13 @@
 }
 
 .logo-nav img {
-  width: 120px;
+  width: 150px;
 }
 
 /*Hero*/
 .hero-container {
   width: 100%;
+  height: 60dvh;
   display: flex;
   justify-content: center;
   margin-left: auto;
@@ -73,29 +76,31 @@
 .hero-body h1 {
   font-size: 80px;
   margin: 0;
+  color: white;
 }
 
 .hero-body p {
   font-size: 24px;
   /* margin: 0; */
+  color: white;
 }
 
 .hero-body button {
   border: none;
-  background-color: black;
-  color: white;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-weight: 600;
   margin-top: 20px;
   padding: 24px 60px;
   font-size: 1rem;
   border-radius: 12px;
-  
+
   transition: 0.3s ease-in-out;
 }
 
 .hero-body button:hover {
   transform: translateY(-5px);
-  box-shadow: 7px 5px 0px #06F3F9;
+  box-shadow: 7px 5px 0px #06f3f9;
 }
 
 .brand-elements {
@@ -115,4 +120,31 @@
   width: 300px;
   height: 300px;
   transform: translateX(50px);
+}
+
+.past-clients-logos {
+  background-color: white;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 100px 0;
+  padding: 30px 200px;
+}
+
+.past-clients-logos h2 {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logos img {
+  width: 120px;
+  opacity: 0.5;
 }

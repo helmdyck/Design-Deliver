@@ -5,12 +5,14 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import LogoNav from "./components/LogoNav";
 import Hero from "./components/Hero";
+import PastClients from "./components/PastClients";
 
 function App() {
   return (
     <>
       <LogoNav />
       <Hero/>
+      <PastClients/>
       <Navbar />
 
     </>
