@@ -12,7 +12,7 @@ function Hero() {
       <div className="hero-body">
         <h1>Big ideas <br /> for small projects</h1>
         <p>Focus on your business. <br /> We do the design.</p>
-        <button>See plans</button>
+        <button className="btn-plans">See plans</button>
       </div>
     </section>
   );

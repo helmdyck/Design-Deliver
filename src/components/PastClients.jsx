@@ -7,7 +7,7 @@ import logo4 from "../assets/logo4.png";
 function PastClients() {
   return (
     <section className="past-clients-logos">
-      <h2>Past Clients</h2>
+      {/* <h2>Past Clients</h2> */}
       <div className="logos">
         <img src={logo1} alt="" />
         <img src={logo2} alt="" />

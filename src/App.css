@@ -9,7 +9,8 @@
 }
 
 .navbar-body {
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.479);
+  backdrop-filter: blur(5px);
   padding: 5px;
   border-radius: 30px;
   display: flex;
@@ -85,7 +86,7 @@
   color: white;
 }
 
-.hero-body button {
+.btn-plans {
   border: none;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
@@ -98,7 +99,7 @@
   transition: 0.3s ease-in-out;
 }
 
-.hero-body button:hover {
+.btn-plans:hover {
   transform: translateY(-5px);
   box-shadow: 7px 5px 0px #06f3f9;
 }
@@ -122,9 +123,10 @@
   transform: translateX(50px);
 }
 
+/*Past Clients*/
 .past-clients-logos {
   background-color: white;
-
+ 
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -135,8 +137,8 @@
 .past-clients-logos h2 {
   margin-top: 0;
   margin-bottom: 30px;
-  font-size: 24px;
-  font-weight: 600;
+  /* font-size: 24px;
+  font-weight: 600; */
 }
 
 .logos {
@@ -147,4 +149,100 @@
 .logos img {
   width: 120px;
   opacity: 0.5;
+}
+
+/*Client Problem*/
+
+.client-problem {
+  width: 100%;
+  height: 65dvh;
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.problem-img {
+  background-image: url(./assets/diseñadores.jpg);
+  background-size: cover;
+  background-position: center;
+  min-width: 50%;
+  height: 100%;
+}
+
+.problem-text {
+  color: white;
+  width: 50%;
+  padding: 80px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.problem-text h2 {
+  font-size: 30px;
+}
+
+.problem-text p {
+  font-size: 20px;
+}
+
+/*Testimonial*/
+
+.testimonial blockquote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white;
+  margin-bottom: 100px;
+}
+
+.testimonial i {
+  font-size: 40px;
+}
+
+.client-quote {
+  margin: 0;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.testimonial .highlight {
+  font-size: 25px;
+  font-weight: 600;
+  font-style: italic;
+}
+
+/*How it works*/
+
+.how-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-bottom: 100px;
+}
+
+.how-container h2{
+  font-size: 30px;
+}
+
+.how-container p{
+  margin: 0;
+}
+
+.steps {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.steps .step{
+  text-align: center;
+  width: 30%;
+  margin: 30px;
+}
+
+.step i {
+  font-size: 50px;
 }
