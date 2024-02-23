@@ -8,15 +8,15 @@ function HowItWorks() {
         <p>Design as you want it has just arrived.</p>
         <div className="steps">
           <div className="step">
-            <i className="bi bi-check-circle-fill"></i>
+            <i className="bi bi-check-circle-fill step-icon"></i>
             <p>Subscribe to a plan & request <br /> as many designs as you'd like.</p>
           </div>
           <div className="step">
-            <i className="bi bi-gem"></i>
+            <i className="bi bi-gem step-icon"></i>
             <p>Receive your design within a few <br /> business days on average, Monday to Friday.</p>
           </div>
           <div className="step">
-            <i className="bi bi-repeat"></i>
+            <i className="bi bi-repeat step-icon"></i>
             <p>We'll revise the designs until <br /> you're 100% satisfied.</p>
           </div>
         </div>

@@ -126,12 +126,11 @@
 /*Past Clients*/
 .past-clients-logos {
   background-color: white;
- 
   display: flex;
   flex-direction: column;
   text-align: center;
   margin: 100px 0;
-  padding: 30px 200px;
+  padding: 30px 50px;
 }
 
 .past-clients-logos h2 {
@@ -223,26 +222,33 @@
   margin-bottom: 100px;
 }
 
-.how-container h2{
+.how-container h2 {
   font-size: 30px;
 }
 
-.how-container p{
+.how-container p {
   margin: 0;
+  font-size: 20px;
 }
 
 .steps {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin: 50px;
+  gap: 80px;
 }
 
-.steps .step{
+.steps .step {
   text-align: center;
   width: 30%;
-  margin: 30px;
 }
 
-.step i {
+.step p {
+  margin-top: 30px;
+}
+
+.step-icon {
   font-size: 50px;
+  margin-bottom: 20px;
 }
